@@ -1,0 +1,7 @@
+Command line git & SourceTree
+git init - creates a new repository
+git add (insert file name) or * = the entire file
+git status- Check status of repository
+git commit -m (“Enter comments”)
+
+rmdir is remove director
