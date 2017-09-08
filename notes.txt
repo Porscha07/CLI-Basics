@@ -1,7 +1,52 @@
+If you want to learn to code, you MUST learn the command line. Programming languages are advanced ways to control the computer with language. The command line is the baby little brother of programming languages. Learning the command line teaches you to control the computer using language.
+
+Directory - It's a folder used interchangeably with directory.
+path- a set of directions to the computer of where you want to put somethingin the tree of directories that make up your computer's hard disk.
+
+Linux/Mac OSX Commands
+
+~pwd - print working directory
+~hostname - my computer's network name
+~mkdir - make directory
+~cd - change directory
+~ls - list directory (lists out the contents of the directory you are currently in) you can also use the (ls -lR) command as well.
+~rmdir - remove directory
+~pushd - push directory (save your current location and go to a new location)
+~popd - pop directory ( how to return to the saved location)
+~touch - used to create an emply tile within a directory
+~cp - copy a file or directory
+~mv -move a file or directory
+~less - page through a file
+~cat - print the whole file
+~xargs - execute arguments
+~find - find files
+~grep -find things inside files ( helps you find particular parts of a file)
+~man - read a manual page
+~apropos - find what man page is appropriate
+~env - look at your environment
+~echo - print some arguments
+~export - export/set a new environment variable
+~exit - exit the shell
+~sudo - DANGER! become super user root DANGER!
+
+If you ever get lost in a directory, type the following:
+ pwd- will show you the current directory
+ cd ~ - will bring you home
+
+*** Remember when you put quotes around a directory with spaces in it? You can do that with any command. For example, if you have a directory I Have Fun, then you can do: cd "I Have Fun"
+
+
+*** If you try to do rmdir on Mac OSX and it refuses to remove the directory even though you are positive it's empty, then there is actually a file in there called .DS_Store. In that case, type rm -rf <dir> instead (replace <dir> with the directory name).
+
+***mkdir -p (on Linux/OSX) will make an entire path even if all the directories don't exist.
+
+***8Use the cp -r command to copy more directories with files in them.
+***Notice how sometimes I put a / (slash) at the end of a directory? That makes sure the file is really a directory, so if the directory doesn't exist I'll get an error.
+
 Command line git & SourceTree
 git init - creates a new repository
 git add (insert file name) or * = the entire file
 git status- Check status of repository
 git commit -m (“Enter comments”)
 
-rmdir is remove director
+rmdir is remove director                                       
