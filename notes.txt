@@ -1,7 +1,7 @@
 If you want to learn to code, you MUST learn the command line. Programming languages are advanced ways to control the computer with language. The command line is the baby little brother of programming languages. Learning the command line teaches you to control the computer using language.
 
 Directory - It's a folder used interchangeably with directory.
-path- a set of directions to the computer of where you want to put somethingin the tree of directories that make up your computer's hard disk.
+path- a set of directions to the computer of where you want to put something in the tree of directories that make up your computer's hard disk.
 
 Linux/Mac OSX Commands
 
@@ -13,10 +13,10 @@ Linux/Mac OSX Commands
 ~rmdir - remove directory
 ~pushd - push directory (save your current location and go to a new location)
 ~popd - pop directory ( how to return to the saved location)
-~touch - used to create an emply tile within a directory
+~touch - used to create an emply file within a directory( will access file if it already exists)
 ~cp - copy a file or directory
 ~mv -move a file or directory
-~less - page through a file
+~less - page through a file ( hit q to get out of less in terminal)
 ~cat - print the whole file
 ~xargs - execute arguments
 ~find - find files
@@ -27,6 +27,7 @@ Linux/Mac OSX Commands
 ~echo - print some arguments
 ~export - export/set a new environment variable
 ~exit - exit the shell
+~subl - open the file in sublime(??- have to clarify that)
 ~sudo - DANGER! become super user root DANGER!
 
 If you ever get lost in a directory, type the following:
@@ -40,13 +41,20 @@ If you ever get lost in a directory, type the following:
 
 ***mkdir -p (on Linux/OSX) will make an entire path even if all the directories don't exist.
 
-***8Use the cp -r command to copy more directories with files in them.
+***Use the cp -r command to copy more directories with files in them.
 ***Notice how sometimes I put a / (slash) at the end of a directory? That makes sure the file is really a directory, so if the directory doesn't exist I'll get an error.
+
+ShortCuts-
+ up- arrow - reproduce previous command
+ TAB-autocomplete command, file or directory name
+ Command-tab - cycle through windows
+ Command-S (save the file)
 
 Command line git & SourceTree
 git init - creates a new repository
 git add (insert file name) or * = the entire file
 git status- Check status of repository
 git commit -m (“Enter comments”)
+git push
 
-rmdir is remove director                                       
+                                   
